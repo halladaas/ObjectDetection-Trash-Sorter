@@ -1,0 +1,15 @@
+path: /Users/halla.d/Downloads/Waste Classification.v2i.yolov8
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 5
+names: ['glass', 'metal', 'paper', 'plastic', 'soft']
+
+roboflow:
+  workspace: insiyah
+  project: waste-classification-zqv4m
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/insiyah/waste-classification-zqv4m/dataset/2
+  
