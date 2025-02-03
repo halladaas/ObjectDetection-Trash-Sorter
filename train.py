@@ -7,4 +7,5 @@ model = YOLO("yolov8n.yaml")  # build a new model from scratch
 results = model.train(
     data="data.yaml",
     epochs=100,
+    device = 0
 )
